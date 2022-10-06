@@ -35,3 +35,13 @@ function multNumeros(N5,N6){
 const resultado2=multNumeros(num5,num6)
 console.log (resultado2)
 //#endregion
+//#region 
+const num7=40;
+const num8=2;
+function divNumeros(N7,N8){
+    const resultado3=N7/N8;
+    return resultado3
+}
+const resultado3=divNumeros(num7,num8)
+console.log (resultado3)
+//#endregion
