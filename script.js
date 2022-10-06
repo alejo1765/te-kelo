@@ -45,3 +45,17 @@ function divNumeros(N7,N8){
 const resultado3=divNumeros(num7,num8)
 console.log (resultado3)
 //#endregion
+//#region
+//array
+const misAmigos =['Jorge','Lautaro','Becky G',30,2];
+console.log(misAmigos[0]+ `se dice que Lautaro no sabe jugar a la pelota pero quien sabe...
+nacio el dia ` + misAmigos[3] + " del mes " + misAmigos[4])
+  //recorrer un array con for
+for (let i = 0; i <= misAmigos.length; i++){
+    console.log(misAmigos[i]);
+}
+ //recorrer un array con for of
+ for (let m of misAmigos){
+    console.log(m);
+ }
+//#endregion
