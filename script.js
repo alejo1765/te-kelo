@@ -25,3 +25,13 @@ function restaNumeros(N3,N4){
 const resultado1=restaNumeros(num3,num4)
 console.log (resultado1)
 //#endregion
+//#region 
+const num5=2;
+const num6=4;
+function multNumeros(N5,N6){
+    const resultado2=N5*N6;
+    return resultado2
+}
+const resultado2=multNumeros(num5,num6)
+console.log (resultado2)
+//#endregion
